@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageIntro } from "@/components/shared";
 import { ContactForm } from "@/components/contact-form";
 import { isContactConfigured, serviceIds } from "@/lib/contact";
+import { company } from "@/lib/company";
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Contact",
@@ -36,6 +37,13 @@ export default async function Contact({
           <p>
             Tell us what you have in mind, what matters to your organisation,
             and where you need help.
+          </p>
+          <h3>Call us</h3>
+          <p>
+            <a className="text-link" href={company.phoneHref}>
+              {company.phone}
+            </a>{" "}
+            ({company.phoneNetwork})
           </p>
           <h3>What happens next?</h3>
           <ol>
