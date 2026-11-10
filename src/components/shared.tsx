@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Arrow } from "./icons";
+import { BrandLogo } from "./brand-logo";
 export function ButtonLink({
   href,
   children,
@@ -41,8 +42,8 @@ export function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-top">
-          <Link href="/" className="wordmark">
-            Mapiko<span> Inc.</span>
+          <Link href="/" className="wordmark" aria-label="Loom Digital home">
+            <BrandLogo />
           </Link>
           <p>
             Custom software, websites,
@@ -58,7 +59,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} Mapiko Inc.</span>
+          <span>© {new Date().getFullYear()} Loom Digital</span>
           <span>Based in Zimbabwe. Built for connection.</span>
           <nav className="footer-policy-links" aria-label="Legal and privacy">
             <Link href="/privacy">Privacy</Link>

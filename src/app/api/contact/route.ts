@@ -69,7 +69,7 @@ export async function POST(request: Request) {
         from: process.env.CONTACT_FROM_EMAIL!,
         to: process.env.CONTACT_TO_EMAIL!,
         replyTo: data.email,
-        subject: `Mapiko Inc. project enquiry: ${data.service}`,
+        subject: `Loom Digital project enquiry: ${data.service}`,
         text: [
           `Name: ${data.name}`,
           `Email: ${data.email}`,

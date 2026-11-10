@@ -5,19 +5,19 @@ import { PolicyLayout, PolicyContact } from "@/components/policy-layout";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Mapiko Inc. handles website enquiries and visitor information.",
+    "How Loom Digital handles website enquiries and visitor information.",
   alternates: { canonical: "/privacy" },
 };
 export default function Privacy() {
   return (
     <PolicyLayout
       title="Privacy policy"
-      introduction="This notice explains how Mapiko Inc. handles information when you browse this website or contact us."
+      introduction="This notice explains how Loom Digital handles information when you browse this website or contact us."
     >
       <section>
         <h2>Who to contact</h2>
         <p>
-          Mapiko Inc. is based in Zimbabwe. For questions about this notice or
+          Loom Digital is based in Zimbabwe. For questions about this notice or
           your personal information, email <PolicyContact />.
         </p>
       </section>

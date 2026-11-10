@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Tell Mapiko Inc. about your website, custom software or AI project.",
+    "Tell Loom Digital about your website, custom software or AI project.",
 };
 export default async function Contact({
   searchParams,

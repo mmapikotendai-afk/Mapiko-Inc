@@ -1,6 +1,10 @@
 # Website images
 
-Generated using the built-in image generation tool for this website. These are conceptual brand illustrations, not photographs of the founder, actual premises, or client projects. The rejected logo remains excluded.
+The editorial images were generated using the built-in image generation tool for this website. These are conceptual brand illustrations, not photographs of the founder, actual premises, or client projects. The earlier rejected logo remains excluded. Historical image prompts below retain the former Mapiko Inc. name.
+
+## Approved Loom Digital logo
+
+The owner supplied `loom-digital-website-colors.svg` and `.png` on 10 November 2026 and approved renaming the website to Loom Digital. Original files are preserved as `public/brand/loom-digital-card.svg` and `.png`. `public/brand/loom-digital.svg` reuses the original outlined vector geometry with a compact viewBox, no background and navy fill for the header/footer and social preview. `src/app/icon.svg` uses the supplied symbol on navy. No external fonts or image generation were used to adapt the logo.
 
 - `public/images/workspace.webp`: 1536 × 1024, 133,536 bytes. Used on Home and About.
 - `public/images/connections.webp`: 1536 × 1024, 69,564 bytes. Previous Services artwork, retained but no longer displayed.

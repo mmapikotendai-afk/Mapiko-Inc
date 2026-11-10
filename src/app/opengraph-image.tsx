@@ -1,9 +1,12 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 export const alt =
-  "Mapiko Inc. — Custom software, websites, and practical AI solutions.";
+  "Loom Digital — Custom software, websites, and practical AI solutions.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export default function Image() {
+export default async function Image() {
+  const logo = await readFile(join(process.cwd(), "public/brand/loom-digital.svg"));
   return new ImageResponse(
     <div
       style={{
@@ -17,7 +20,12 @@ export default function Image() {
         height: "100%",
       }}
     >
-      <div style={{ fontSize: 36 }}>Mapiko Inc.</div>
+      <img
+        src={`data:image/svg+xml;base64,${logo.toString("base64")}`}
+        alt="Loom Digital"
+        width={252}
+        height={81}
+      />
       <div
         style={{
           fontSize: 76,

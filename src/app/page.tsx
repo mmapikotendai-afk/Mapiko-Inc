@@ -41,7 +41,7 @@ export default function Home() {
           </h2>
           <div>
             <p>
-              Mapiko Inc. develops websites, custom software, and AI-powered
+              Loom Digital develops websites, custom software, and AI-powered
               applications for businesses and institutions.
             </p>
             <p>
@@ -50,7 +50,7 @@ export default function Home() {
               online.
             </p>
             <Link href="/about" className="text-link">
-              Meet Mapiko Inc. <Arrow />
+              Meet Loom Digital <Arrow />
             </Link>
           </div>
         </div>

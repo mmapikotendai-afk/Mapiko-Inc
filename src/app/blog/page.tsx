@@ -6,10 +6,10 @@ import { PageIntro } from "@/components/shared";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Practical notes on websites, custom software and applied AI from Mapiko Inc.",
+    "Practical notes on websites, custom software and applied AI from Loom Digital",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Ideas for useful software | Mapiko Inc.",
+    title: "Ideas for useful software | Loom Digital",
     description: "Practical notes on websites, custom software and applied AI.",
     url: "/blog",
     type: "website",

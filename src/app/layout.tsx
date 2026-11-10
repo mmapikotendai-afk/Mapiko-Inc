@@ -7,15 +7,15 @@ import { Footer } from "@/components/shared";
 const publicSite = process.env.SITE_PUBLIC === "true" && !!process.env.SITE_URL;
 export const metadata: Metadata = {
   title: {
-    default: "Mapiko Inc. — Software that moves your business forward",
-    template: "%s | Mapiko Inc.",
+    default: "Loom Digital — Software that moves your business forward",
+    template: "%s | Loom Digital",
   },
   description:
     "Custom software, websites, school systems and practical AI solutions. A founder-led development company based in Zimbabwe.",
   metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
   robots: { index: publicSite, follow: publicSite },
   openGraph: {
-    title: "Mapiko Inc.",
+    title: "Loom Digital",
     description: "Custom software, websites, and practical AI solutions.",
     type: "website",
     locale: "en_ZW",

@@ -6,7 +6,7 @@ import { Arrow } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Our Work",
   description:
-    "Explore Mapiko’s school websites, education software, fashion website work and applied AI demonstrations.",
+    "Explore Loom Digital’s school websites, education software, fashion website work and applied AI demonstrations.",
 };
 export default function Work() {
   return (

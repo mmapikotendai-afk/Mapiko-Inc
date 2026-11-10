@@ -165,14 +165,15 @@ a:hover {
   gap: 30px;
 }
 .wordmark {
-  font-family: var(--heading);
-  font-size: 1.7rem;
-  font-weight: 760;
-  letter-spacing: -0.04em;
-  white-space: nowrap;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: fit-content;
 }
-.wordmark span {
-  font-weight: 450;
+.brand-logo {
+  display: block;
+  width: 168px;
+  height: auto;
 }
 .navigation {
   display: flex;
@@ -1129,8 +1130,8 @@ a:hover {
   .nav-contact svg {
     display: none;
   }
-  .wordmark {
-    font-size: 1.5rem;
+  .brand-logo {
+    width: 144px;
   }
   .nav-inner {
     min-height: 85px;

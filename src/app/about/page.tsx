@@ -4,7 +4,7 @@ import { EditorialImage } from "@/components/editorial-image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Tendai Mapiko and the practical, founder-led approach behind Mapiko Inc., based in Zimbabwe.",
+    "Meet Tendai Mapiko and the practical, founder-led approach behind Loom Digital, based in Zimbabwe.",
 };
 export default function About() {
   return (
@@ -17,7 +17,7 @@ export default function About() {
             <span>a practical purpose.</span>
           </>
         }
-        description="Mapiko Inc. is a founder-led software development company based in Zimbabwe, serving local and international clients."
+        description="Loom Digital is a founder-led software development company based in Zimbabwe, serving local and international clients."
       />
       <section className="founder-section">
         <div className="container founder-grid">
@@ -27,7 +27,7 @@ export default function About() {
               <br />
               Mapiko.
             </h2>
-            <span>Founder, Mapiko Inc.</span>
+            <span>Founder, Loom Digital</span>
             <EditorialImage subject="workspace" className="about-image" />
             <div className="founder-line" />
             <p>
@@ -53,7 +53,7 @@ export default function About() {
               work in full-stack development, databases and applied AI.
             </p>
             <p>
-              Mapiko Inc. brings that practical approach to businesses and
+              Loom Digital brings that practical approach to businesses and
               institutions: understand the need, communicate clearly and build a
               solution with a purpose.
             </p>

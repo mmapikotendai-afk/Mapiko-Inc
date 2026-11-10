@@ -1,6 +1,6 @@
-# Mapiko Inc.
+# Loom Digital
 
-A five-page company website using Next.js App Router, React, strict TypeScript and Tailwind CSS. Locally served Manrope and DM Sans fonts. The rejected generated logo is not included; the site uses a text wordmark.
+A company website using Next.js App Router, React, strict TypeScript and Tailwind CSS, with locally served Manrope and DM Sans fonts. The owner-supplied Loom Digital logo is used in the header, footer, browser icon and social preview. Original logo files and a compact website SVG are in `public/brand/`.
 
 ## Run locally
 

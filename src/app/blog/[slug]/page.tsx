@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.description,
       url,
-      siteName: "Mapiko Inc.",
+      siteName: "Loom Digital",
       type: "article",
       publishedTime: `${post.publishDate}T00:00:00.000Z`,
       authors: [post.author],

@@ -7,7 +7,7 @@ import { EditorialImage } from "@/components/editorial-image";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Website development, custom applications, school systems, AI prototypes and software maintenance from Mapiko Inc.",
+    "Website development, custom applications, school systems, AI prototypes and software maintenance from Loom Digital",
 };
 export default function Services() {
   return (

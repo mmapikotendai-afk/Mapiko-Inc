@@ -5,14 +5,14 @@ import { PolicyLayout, PolicyContact } from "@/components/policy-layout";
 export const metadata: Metadata = {
   title: "Cookies",
   description:
-    "How the Mapiko Inc. website currently uses cookies and browser storage.",
+    "How the Loom Digital website currently uses cookies and browser storage.",
   alternates: { canonical: "/cookies" },
 };
 export default function Cookies() {
   return (
     <PolicyLayout
       title="Cookies"
-      introduction="This page describes cookies and similar browser storage used by the current Mapiko Inc. website."
+      introduction="This page describes cookies and similar browser storage used by the current Loom Digital website."
     >
       <section>
         <h2>What cookies do</h2>

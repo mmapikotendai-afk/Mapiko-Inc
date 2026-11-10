@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Arrow } from "./icons";
+import { BrandLogo } from "./brand-logo";
 const links = [
   ["Home", "/"],
   ["Services", "/services"],
@@ -27,8 +28,8 @@ export function Navigation() {
   return (
     <header className="site-header">
       <div className="container nav-inner">
-        <Link href="/" className="wordmark" aria-label="Mapiko Inc. home">
-          Mapiko<span> Inc.</span>
+        <Link href="/" className="wordmark" aria-label="Loom Digital home">
+          <BrandLogo />
         </Link>
         <button
           ref={button}

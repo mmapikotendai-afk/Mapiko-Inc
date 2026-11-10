@@ -1,4 +1,4 @@
-# Mapiko Inc.
+# Loom Digital
 
 <!-- impeccable:product-schema 1 -->
 
@@ -16,7 +16,7 @@ Businesses, schools and institutions in Zimbabwe and internationally looking for
 
 ## Brand Commitments
 
-Mapiko Inc.; founder Tendai Mapiko. Navy, warm white and restrained electric blue. Clear, confident factual copy. Text wordmark only: the generated logo is explicitly excluded.
+Loom Digital; founder Tendai Mapiko. Navy, warm white and restrained electric blue. Clear, confident factual copy. The owner approved the Loom Digital name and supplied the final SVG/PNG logo on 10 November 2026. Use its original geometry, with the compact navy SVG on light website surfaces. This replaces the earlier Mapiko Inc. text-wordmark direction.
 
 ## Evidence on Hand
 

@@ -5,14 +5,14 @@ import { PolicyLayout, PolicyContact } from "@/components/policy-layout";
 export const metadata: Metadata = {
   title: "Website Terms",
   description:
-    "Terms for using the Mapiko Inc. website and making project enquiries.",
+    "Terms for using the Loom Digital website and making project enquiries.",
   alternates: { canonical: "/terms" },
 };
 export default function Terms() {
   return (
     <PolicyLayout
       title="Website terms"
-      introduction="These terms explain the intended use of the Mapiko Inc. website. Separate written agreements apply to commissioned services."
+      introduction="These terms explain the intended use of the Loom Digital website. Separate written agreements apply to commissioned services."
     >
       <section>
         <h2>Using this website</h2>

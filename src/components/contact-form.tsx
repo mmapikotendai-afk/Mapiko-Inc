@@ -203,7 +203,7 @@ export function ContactForm({
         <Arrow diagonal />
       </button>
       <p className="form-privacy">
-        When sending is available, your details are emailed to Mapiko Inc. to
+        When sending is available, your details are emailed to Loom Digital to
         respond to your enquiry. This website does not save them to a database.{" "}
         <Link href="/privacy">Read our privacy policy.</Link>
       </p>
