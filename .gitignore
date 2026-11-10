@@ -1,0 +1,11 @@
+node_modules/
+.impeccable/
+.next/
+.next-before-images-20261104/
+.next-before-policies-20261104/
+.env*
+!.env.example
+*.tsbuildinfo
+.vercel/
+playwright-report/
+test-results/

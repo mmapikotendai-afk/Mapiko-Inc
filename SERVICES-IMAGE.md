@@ -1,0 +1,9 @@
+# Services image replacement
+
+Saved asset: `public/images/services-development.webp` (1600 × 640, 124,382 bytes). Generated with the built-in image generation tool and compressed to WebP. The conceptual scene illustrates software planning and development; it is not a photograph of a Mapiko client session.
+
+## Final generation prompt
+
+Verification: production build and TypeScript checks passed. Desktop and phone crops were inspected in the browser; the optimised replacement image returned HTTP 200.
+
+Use case: photorealistic-natural. Asset type: wide editorial photograph for the SERVICES page of Mapiko Inc., a custom software and practical AI development company. Create a premium, highly realistic horizontal panoramic photograph, approx 2.5:1 composition designed to crop into a 21:8 website banner. Overhead-oblique close view of a thoughtful software product planning session on a pale oak desk: an unbranded navy laptop on the right with a refined application interface on screen (indistinct small UI content, no readable text), a cream paper wireframe with precise blue pen sketches in the centre, one hand of a Black adult developer using a blue pen to connect a paper workflow, a second hand near the laptop trackpad. Only hands and forearms visible, no faces, no group of people, no company office claims. Emphasise concrete work: interface design, planning and implementation. Carefully arranged authentic tools, restrained uncluttered composition, tactile paper and aluminium, soft window daylight, navy #13233b, cobalt #254ded and warm ivory palette. Keep laptop, hands and wireframe all inside central horizontal band so they survive a wide crop; gentle negative space toward left. Architectural editorial photography, credible and human, calm and crisp. No decorative ribbons, no abstract sculpture, no robots, no holograms, no glowing circuitry, no logos, no text overlay, no watermarks. Generate one photograph only.
